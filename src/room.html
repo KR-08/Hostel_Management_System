@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Room Allocation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Room Allocation</h2>
+
+  <form id="roomForm">
+    <input type="text" id="rollRoom" placeholder="Roll Number" required>
+    
+    <select id="blockSelect" required>
+      <option value="">Select Block</option>
+      <option value="A-Block">A-Block</option>
+      <option value="B-Block">B-Block</option>
+      <option value="C-Block">C-Block</option>
+      <option value="D-Block">D-Block</option>
+    </select>
+
+    <input type="text" id="roomNo" placeholder="Room Number" required>
+    <button type="submit">Allocate</button>
+  </form>
+
+  <a href="dashboard.html" class="btn">Back to Dashboard</a>
+
+  <script src="script.js"></script>
+</body>
+</html>

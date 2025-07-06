@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Manage Students</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Registered Students</h2>
+
+  <input type="text" id="searchInput" placeholder="Search by name or roll number">
+  <button onclick="exportStudents()">Export CSV</button>
+
+  <table id="studentTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>Course</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <a href="dashboard.html" class="btn">Back to Dashboard</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
